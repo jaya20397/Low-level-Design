@@ -3,10 +3,10 @@
 using namespace std;
 
 class jumper{
-    
+    public:
     int startpoint;
     int endpoint;
-    public:
+    
         jumper(int start, int end){
             this->startpoint=start;
             this->endpoint=end;
